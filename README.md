@@ -44,4 +44,4 @@ CREATE TABLE orders (
 
 Aşağıda modelin bir soruya verdiği örnek cevap, düşünce zinciri (Chain-of-Thought) sürecini göstermektedir:
 
-![SQL Uzmanı Modelinin Örnek Çıktısı](https://raw.githubusercontent.com/mehmetbozdemir24/sql_uzmani/main/resim/resim.jpg)
+<img src="https://raw.githubusercontent.com/mehmetbozdemir24/sql_uzmani/main/resim/resim.jpg" alt="SQL Uzmanı Modelinin Örnek Çıktısı" width="800">
