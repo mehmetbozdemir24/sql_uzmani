@@ -9,13 +9,13 @@ Bu modeli kullanmak için bilgisayarınızda [Ollama](https://ollama.com)'nın y
 1.  **Modeli İndirin (Pull):**
     Terminalde aşağıdaki komutu çalıştırarak modeli Ollama Hub'dan bilgisayarınıza indirin:
     ```bash
-    ollama pull mehmetbozdemir24/sql_uzmani
+    ollama pull nypgd/sql_uzmani
     ```
 
 2.  **Modeli Çalıştırın (Run):**
     Modeli interaktif modda çalıştırmak için aşağıdaki komutu kullanın:
     ```bash
-    ollama run mehmetbozdemir24/sql_uzmani
+    ollama run nypgd/sql_uzmani
     ```
 
 ## Örnek Kullanım
