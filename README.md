@@ -1,2 +1,41 @@
-# sql_uzmani
-Doğal Dildeki SQL Sorgularını SQLite koduna dönüştüren model
+# SQL Uzmanı (sql_uzmani) Ollama Modeli
+
+Bu proje, doğal dilde yazılan Türkçe soruları SQL sorgularına çevirmek için fine-tune edilmiş bir yapay zeka modelidir. Model, Qwen2.5-14B temel alınarak özel bir SQL veri seti ile eğitilmiştir ve Ollama üzerinde çalışmak üzere GGUF formatında paketlenmiştir.
+
+## Hızlı Başlangıç
+
+Bu modeli kullanmak için bilgisayarınızda [Ollama](httpsd://ollama.com)'nın yüklü olması gerekmektedir.
+
+1.  **Modeli İndirin (Pull):**
+    Terminalde aşağıdaki komutu çalıştırarak modeli Ollama Hub'dan bilgisayarınıza indirin:
+    ```bash
+    ollama pull mehmetbozdemir24/sql_uzmani
+    ```
+
+2.  **Modeli Çalıştırın (Run):**
+    Modeli interaktif modda çalıştırmak için aşağıdaki komutu kullanın:
+    ```bash
+    ollama run mehmetbozdemir24/sql_uzmani
+    ```
+
+## Örnek Kullanım
+
+Modeli çalıştırdıktan sonra, aşağıdaki gibi bir prompt formatı kullanarak SQL sorgusu üretebilirsiniz:
+
+```text
+### Soru:
+En çok sipariş veren 5 müşterinin adını ve sipariş sayısını göster.
+
+### Şema:
+CREATE TABLE customers (
+  customer_id INTEGER PRIMARY KEY,
+  customer_name TEXT NOT NULL
+);
+CREATE TABLE orders (
+  order_id INTEGER PRIMARY KEY,
+  customer_id INTEGER,
+  order_date TEXT,
+  FOREIGN KEY (customer_id) REFERENCES customers (customer_id)
+);
+
+### Gerekçelendirme ve SQL:
