@@ -39,3 +39,9 @@ CREATE TABLE orders (
 );
 
 ### Gerekçelendirme ve SQL:
+
+## Örnek Çalışma Çıktısı
+
+Aşağıda modelin bir soruya verdiği örnek cevap, düşünce zinciri (Chain-of-Thought) sürecini göstermektedir:
+
+![SQL Uzmanı Modelinin Örnek Çıktısı](./resim.jpg)
