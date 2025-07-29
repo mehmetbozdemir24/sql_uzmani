@@ -22,7 +22,6 @@ Bu modeli kullanmak için bilgisayarınızda [Ollama](https://ollama.com)'nın y
 
 Modeli çalıştırdıktan sonra, aşağıdaki gibi bir prompt formatı kullanarak SQL sorgusu üretebilirsiniz:
 
-```text
 ### Soru:
 En çok sipariş veren 5 müşterinin adını ve sipariş sayısını göster.
 
@@ -44,4 +43,4 @@ CREATE TABLE orders (
 
 Aşağıda modelin bir soruya verdiği örnek cevap, düşünce zinciri (Chain-of-Thought) sürecini göstermektedir:
 
-[Ollama](https://ollama.com)
+![SQL Uzmanı Modelinin Örnek Çıktısı]([https://ollama.com](https://github.com/mehmetbozdemir24/sql_uzmani/blob/main/resim.jpg))
