@@ -39,3 +39,10 @@ CREATE TABLE orders (
 );
 
 ### Gerekçelendirme ve SQL:
+
+
+## Ekran Çıktısı
+![63d1f6d8-e0d2-47d0-8f5c-8a9bfb435c91](https://github.com/user-attachments/assets/0a87ee84-298a-4c7f-8c63-dc67266fed44)
+
+
+
