@@ -37,9 +37,9 @@ CREATE TABLE orders (
   order_date TEXT,
   FOREIGN KEY (customer_id) REFERENCES customers (customer_id)
 );
-```
 ### Gerekçelendirme ve SQL:
 
+```
 ## Örnek Çalışma Çıktısı
 
 Aşağıda modelin bir soruya verdiği örnek cevap, düşünce zinciri (Chain-of-Thought) sürecini göstermektedir:
