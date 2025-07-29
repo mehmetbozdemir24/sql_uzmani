@@ -22,6 +22,7 @@ Bu modeli kullanmak için bilgisayarınızda [Ollama](https://ollama.com)'nın y
 
 Modeli çalıştırdıktan sonra, aşağıdaki gibi bir prompt formatı kullanarak SQL sorgusu üretebilirsiniz:
 
+```text
 ### Soru:
 En çok sipariş veren 5 müşterinin adını ve sipariş sayısını göster.
 
@@ -36,7 +37,7 @@ CREATE TABLE orders (
   order_date TEXT,
   FOREIGN KEY (customer_id) REFERENCES customers (customer_id)
 );
-
+```
 ### Gerekçelendirme ve SQL:
 
 ## Örnek Çalışma Çıktısı
